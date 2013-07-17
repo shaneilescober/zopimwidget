@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<application>
+    <langs support="en" default="en"></langs>
+    <api use="on">
+        <ifs>
+            <if class="apiBuilderLib" permission="off" desc="Api for the builder library"></if>
+            <if class="apiGetCustomizeSetting" permission="off" desc="Api for getting the settings saved for customizing zopim widget"></if>
+            <if class="apiGetCustomizeSettingsFront" permission="off" desc="Api for getting country"></if>
+            <if class="apiGetSetting" permission="off" desc="Api for getting script for zopim widget"></if>
+        </ifs>
+    </api>
+    <admin use="on" index="adminPageZopimWidget">
+        <ifs>
+            <if class="adminExecZopimWidget" permission="off" desc="saving settings of zopimwidget for front"></if>
+            <if class="adminPageSettings" permission="off" desc="settings for zopimwidget"></if>
+            <if class="adminPageManage" permission="off" desc="manage sequence"></if>
+        </ifs>
+        <menus>
+        </menus>
+    </admin>
+    <front use="on">
+        <ifs>
+            <if class="frontPageZopimWidget" permission="off" code-assist="on" desc="Front for zopimwidget app"></if>
+            <if class="frontPageNoRecord" permission="off" code-assist="on" desc="Front for error message if database is currently empty"></if>
+        </ifs>
+    </front>
+</application>

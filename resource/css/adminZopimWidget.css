@@ -1,0 +1,47 @@
+#customize_y_n{
+	/*border:thin solid #000000;*/
+	width: 50%;
+	margin-left:10px;
+}
+
+#customize_widget{
+	/*border:thin solid #000000;*/
+	width:50%;
+	margin-left:10px;
+	margin-top:15px;
+}
+
+#genSettings, #bubbleSettings, #windowSettings, #greetingSettings{
+	width:100%;
+	margin-bottom:10px;
+	/*border:thin solid #000000;*/
+}
+
+#msgChatBar, #msgChatPanel{
+	padding-left:100px;
+	width:100%;
+}
+
+
+.label{
+	text-align:left;
+	width:20%;
+}
+
+.inputArea{
+	text-align:right;
+	width:30%;
+}
+
+.inputBoxes, .color{
+	width:100%;
+}
+
+td{
+	padding-top:3px;
+	padding-bottom: 3px;
+}
+
+textarea{
+	resize:none;
+}

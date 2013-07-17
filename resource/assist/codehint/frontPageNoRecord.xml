@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<codehint>
+    <var value="error" name="Error message if there is no script included to show the zopim chat box"></var>
+</codehint>
